@@ -4,7 +4,7 @@
 
 本项目由两部分组成：macOS-QQ-API 以及 macOS-WeChat-API。
 
-macOS—QQ-API 是基于 [QQPlugin-macOS ](https://github.com/TKkk-iOSer/QQPlugin-macOS)的使用封装，QQPlugin-macOS 使用`GCDWebServer`在本地`127.0.0.1`监听`52777`端口作为 Web 服务器，用于获取用户好友、获取聊天记录、打开与指定好友的聊天窗口、对指定好友发送任意消息。
+macOS-QQ-API 是基于 [QQPlugin-macOS ](https://github.com/TKkk-iOSer/QQPlugin-macOS)的使用封装，QQPlugin-macOS 使用`GCDWebServer`在本地`127.0.0.1`监听`52777`端口作为 Web 服务器，用于获取用户好友、获取聊天记录、打开与指定好友的聊天窗口、对指定好友发送任意消息。
 
 macOS-WeChat-API 是基于 [WeChatPlugin-MacOS](https://github.com/TKkk-iOSer/WeChatPlugin-MacOS) 的使用封装，WeChatPlugin-MacOS 使用`GCDWebServer`在本地`127.0.0.1`监听`52700`端口作为 Web 服务器，用于获取用户好友、获取聊天记录、打开与指定好友的聊天窗口、对指定好友发送任意消息。
 
