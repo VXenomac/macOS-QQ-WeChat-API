@@ -138,13 +138,13 @@ if __name__ == '__main__':
     print(qq.get_chat_log_by_id('DogeCoin', 1))
     # 返回与 userId 为 DogeCoin 群组的最近的五条聊天记录
     print(qq.get_chat_log_by_id('DogeCoin', 101))
-    # 在显示名称为汪汪汪的联系人发送消息
-    print(qq.send_message_by_name('汪汪汪', '哟，这不狗狗币么，几天不见，这么拉了啊'), 1)
-    # 在显示名称为汪汪汪的群组发送消息
-    print(qq.send_message_by_name('汪汪汪', '哟，这不狗狗币么，几天不见，这么拉了啊'), 101)
+    # 给显示名称为汪汪汪的联系人发送消息
+    print(qq.send_message_by_name('汪汪汪', '哟，这不狗狗币么，几天不见，这么拉了啊', 1))
+    # 给显示名称为汪汪汪的群组发送消息
+    print(qq.send_message_by_name('汪汪汪', '哟，这不狗狗币么，几天不见，这么拉了啊', 101))
     # 给 userId 为 DogeCoin 和 ElonMusk 的联系人发送消息
     print(qq.send_message_by_ids(
-        ['DogeCoin', 'ElonMusk'], 'Everything to the moon!'), 1)
+        ['DogeCoin', 'ElonMusk'], 'Everything to the moon!', 1))
     # 给 userId 为 DogeCoin 和 ElonMusk 的群组发送消息
     print(qq.send_message_by_ids(
-        ['DogeCoin', 'ElonMusk'], 'Everything to the moon!'), 101)
+        ['DogeCoin', 'ElonMusk'], 'Everything to the moon!', 101))

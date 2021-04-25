@@ -143,9 +143,13 @@ class WeChat:
 
 if __name__ == '__main__':
     wechat = WeChat()
-    print(wechat.search_user_by_keyword('狗狗币')) # 搜索显示名称为狗狗币的联系人/群组（速度较慢）
-    print(wechat.search_user_by_name('狗狗币')) # 搜索显示名称为狗狗币的联系人/群组（速度较快）
-    print(wechat.get_chat_log_by_name('狗狗币', 5)) # 返回与狗狗币最近的五条聊天记录
-    print(wechat.get_chat_log_by_id('DogeCoin', 5)) # 返回与 userId 为 dogecoin 的最近的五条聊天记录
-    print(wechat.send_message_by_name('汪汪汪', '哟，这不狗狗币么，几天不见，这么拉了啊')) # 在显示名称为汪汪汪的联系人/群组发送消息
-    print(wechat.send_message_by_ids(['DogeCoin', 'ElonMusk'], 'Everything to the moon!')) # 给 userId 为 DogeCoin 和 ElonMusk 的联系人/群组发送消息
+    print(wechat.search_user_by_keyword('狗狗币'))  # 搜索显示名称为狗狗币的联系人/群组（速度较慢）
+    print(wechat.search_user_by_name('狗狗币'))  # 搜索显示名称为狗狗币的联系人/群组（速度较快）
+    print(wechat.get_chat_log_by_name('狗狗币', 5))  # 返回与狗狗币最近的五条聊天记录
+    # 返回与 userId 为 dogecoin 的最近的五条聊天记录
+    print(wechat.get_chat_log_by_id('DogeCoin', 5))
+    # 给显示名称为汪汪汪的联系人/群组发送消息
+    print(wechat.send_message_by_name('汪汪汪', '哟，这不狗狗币么，几天不见，这么拉了啊'))
+    # 给 userId 为 DogeCoin 和 ElonMusk 的联系人/群组发送消息
+    print(wechat.send_message_by_ids(
+        ['DogeCoin', 'ElonMusk'], 'Everything to the moon!'))
