@@ -149,4 +149,3 @@ if __name__ == '__main__':
     print(wechat.get_chat_log_by_id('DogeCoin', 5)) # 返回与 userId 为 dogecoin 的最近的五条聊天记录
     print(wechat.send_message_by_name('汪汪汪', '哟，这不狗狗币么，几天不见，这么拉了啊')) # 在显示名称为汪汪汪的联系人/群组发送消息
     print(wechat.send_message_by_ids(['DogeCoin', 'ElonMusk'], 'Everything to the moon!')) # 给 userId 为 DogeCoin 和 ElonMusk 的联系人/群组发送消息
-    
