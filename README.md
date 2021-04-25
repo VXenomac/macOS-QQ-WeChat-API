@@ -6,7 +6,7 @@ macOS-WeChat-API 是基于 [WeChatPlugin-MacOS](https://github.com/TKkk-iOSer/We
 
 ## 使用场景
 
-Telegram、Slack、Discord、飞书等应用中的机器人扩展了工具的边界，提升了效率，但微信官方始终不支持微信机器人。为此，本工具基于 TK 大佬几年前开发的插件上进行使用封装，可在包括但不局限于以下场景中使用：
+Telegram、Slack、Discord、飞书等应用中的机器人扩展了工具的边界，提升了效率，但微信官方始终不支持微信机器人。为此，本工具基于 TK 大佬几年前开发的插件进行使用封装，可在包括但不局限于以下场景中使用：
 
 1. 给指定的人在指定的时间发送指定的消息
 2. 给群组推送加密货币最新价格
@@ -18,7 +18,7 @@ Telegram、Slack、Discord、飞书等应用中的机器人扩展了工具的边
 1. macOS
 2. 安装[Alfred](https://www.alfredapp.com)
 3. 安装[WeChatExtension-ForMac](https://github.com/MustangYM/WeChatExtension-ForMac)
-4. 安装https://github.com/TKkk-iOSer/wechat-alfred-workflow
+4. 安装[wechat-alfred-workflow](https://github.com/TKkk-iOSer/wechat-alfred-workflow)
 5. 在微信插件中打开`小助手`->`开启 Alfred 功能`
 
 ## 使用方法
